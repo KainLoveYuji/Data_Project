@@ -2,13 +2,11 @@
   {
    "imgAnime": "https://upload-os-bbs.hoyolab.com/upload/2022/08/21/246721941/6e0949bfb3f0410b16cf3edab40de9ac_7910980059267708155.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
    "colorBg": "#cc99ff",
-   "ID": "1",
    "name": "Raiden Ei"
   },
   {
    "imgAnime":"https://lh3.googleusercontent.com/-9e5MX4QngQc/YcLVERxgO9I/AAAAAAAA2s0/9mx3ou6Y3zYKGbS8k2zbf0db3e6za53kACNcBGAsYHQ/s0/Kiriya-Aoi.png",
    "colorBg":"#6399d6",
-    "ID": "2",
-    "name":"aikatsu"
+   "name":"aikatsu"
    }
 ]
