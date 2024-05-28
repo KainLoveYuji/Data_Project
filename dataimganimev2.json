@@ -1,0 +1,14 @@
+{
+ "listAnime": [
+  {
+   "ID": 1,
+   "name": "Raiden Ei",
+   "color": "#cc99ff"
+  },
+  {
+   "ID": 2,
+   "name": "aikatsu",
+   "color": "#6399d6"
+  }
+ ]
+}
