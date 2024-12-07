@@ -1,91 +1,312 @@
-{
-  "name": "YaeMikoBypassProjectS",
-  "version": "4.0.0",
-  "description": "Developed by Ahri",
-  "main": "YaeMiko.js",
-  "scripts": {
-    "start": "node index",
-    "login": "node login",
-    "test": "node --trace-warnings --use_strict --async-stack-traces mirai"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chungdat02/Mirai-V2.git"
-  },
-  "author": "Ahri.HTBT",
-  "license": "GPL-3.0",
-  "dependencies": {
-    "@distube/ytdl-core": "^4.13.3",
-    "@duyhau/fca-unofficial": "^1.0.9",
-    "@miraipr0ject/assets": "^1.0.9",
-    "acorn": "^8.10.0",
-    "aes-js": "^3.1.2",
-    "archiver": "^6.0.1",
-    "axios": "^1.4.0",
-    "better-sqlite3": "^11.1.2",
-    "body-parser": "^1.20.2",
-    "canvas": "^2.11.2",
-    "chalk": "^4.1.2",
-    "chalkercli": "^1.6.4",
-    "cheerio": "^1.0.0-rc.12",
-    "chess.js": "^1.0.0-beta.6",
-    "child_process": "",
-    "colors": "^1.4.0",
-    "config": "^3.3.9",
-    "cors": "^2.8.5",
-    "crypto": "",
-    "deep-extend": "^0.6.0",
-    "dotenv": "^16.4.5",
-    "encode32": "^1.1.0",
-    "eval": "^0.1.8",
-    "express": "^4.18.2",
-    "fast-speedtest-api": "^0.3.2",
-    "fca-disme": "git+https://github.com/KainLoveYuji/Fca-Disme.git",
-    "file-size": "^1.0.0",
-    "form-data": "^4.0.0",
-    "fs": "^0.0.1-security",
-    "fs-extra": "^11.2.0",
-    "googleapis": "^134.0.0",
-    "https": "^1.0.0",
-    "image-downloader": "^4.3.0",
-    "imgur": "^1.0.2",
-    "ip": "^2.0.0",
-    "is-hexcolor": "^1.0.0",
-    "jimp": "^0.22.8",
-    "moment": "^2.29.1",
-    "moment-timezone": "^0.5.43",
-    "morse-decoder": "^3.0.1",
-    "ms": "",
-    "node-disk-info": "^1.3.0",
-    "node-superfetch": "^0.2.3",
-    "nodejs-fs-utils": "^1.2.6",
-    "pastebin-api": "^4.0.1",
-    "path": "^0.12.7",
-    "pidusage": "^3.0.2",
-    "puppeteer": "^22.7.1",
-    "readline": "",
-    "request": "^2.88.2",
-    "semver": "",
-    "sequelize": "^6.33.0",
-    "sex": "^0.0.1",
-    "simple-youtube-api": "",
-    "sqlite3": "^5.1.7",
-    "string-similarity": "",
-    "systeminformation": "^5.18.4",
-    "tinyurl": "^1.1.7",
-    "totp-generator": "0.0.14",
-    "translate": "^1.2.3",
-    "uniqid": "^5.4.0",
-    "uuid": "^9.0.1",
-    "youtube-search-api": "^1.2.1",
-    "ytdl-core": "^4.11.5"
-  },
-  "bugs": {
-    "url": "https://github.com/chungdat02/Mirai-V2/issues"
-  },
-  "homepage": "https://github.com/chungdat02/Mirai-V2#readme",
-  "devDependencies": {
-    "node": "^14.21.3"
-  },
-  "keywords": []
-}
+
+ 🏫 Học Viện Tempest  
+- Giới thiệu:  
+  Học viện Tempest là trung tâm đào tạo danh giá nhất của thành phố, nơi hội tụ của những tài năng trẻ và các giảng viên xuất sắc. Với mục tiêu phát triển mọi khía cạnh từ tri thức, sức mạnh ma pháp đến kỹ năng chiến đấu, Học viện Tempest chào đón tất cả các học sinh, bất kể xuất thân.  
+  Các lớp học và hoạt động tại đây được chia thành nhiều khối khác nhau, phù hợp với năng lực và mục tiêu của từng cá nhân. Đây không chỉ là nơi học tập mà còn là nơi diễn ra các sự kiện quan trọng ảnh hưởng đến tương lai của Tempest.  
+
+ ✨ Vai trò trong Học Viện Tempest  
+
+ 👩‍🏫 Giáo viên (0/6)  
+- 📘 Giáo viên môn Phép Thuật Cơ Bản:  
+  Giảng dạy các nguyên tắc cơ bản về phép thuật, cách điều khiển năng lượng ma pháp, và các kỹ thuật an toàn khi thực hành.  
+- 🔥 Giáo viên môn Phép Thuật Chiến Đấu:  
+  Chuyên dạy kỹ thuật chiến đấu bằng ma pháp, tập trung vào chiến lược và cách đối phó với kẻ thù mạnh mẽ.  
+- 💊 Giáo viên môn Nghệ Thuật Hồi Phục:  
+  Chuyên gia về hồi phục và chữa trị, hướng dẫn học sinh cách sử dụng phép thuật hồi phục cũng như chế tạo thuốc.  
+- 📜 Giáo viên môn Lịch Sử Thế Giới:  
+  Dạy về lịch sử của các quốc gia, quái vật, và sự hình thành Tempest, giúp học sinh hiểu rõ vai trò của mình trong thế giới.  
+- ⚔️ Giáo viên môn Kiếm Thuật & Cận Chiến:  
+  Đào tạo về sử dụng kiếm và kỹ thuật cận chiến, phù hợp cho học sinh muốn trở thành chiến binh mạnh mẽ.  
+- 🧠 Giáo viên môn Triết Học & Quản Trị:  
+  Chuẩn bị học sinh trở thành những nhà lãnh đạo xuất sắc, tập trung vào chiến thuật, ngoại giao và quản trị.  
+
+ 🎓 Học sinh  
+- 🔷 Khối A: Học sinh Ưu Tú (Elite)  
+  - 👑 Học sinh Quý Tộc: (0/5)  
+    Xuất thân từ gia đình danh giá, sở hữu tài năng nổi trội và quyền lợi đặc biệt.  
+  - ⚡ Học sinh Thiên Tài Phép Thuật: (0/3)  
+    Chuyên về phép thuật cấp cao, có khả năng thực hành và phát triển các kỹ thuật hiếm.  
+  - 🗡️ Học sinh Kiếm Thuật Xuất Chúng: (0/3)  
+    Các chiến binh trẻ tuổi nổi bật với kỹ năng chiến đấu ưu việt.  
+
+- 🔶 Khối B: Học sinh Năng Khiếu (Gifted)  
+  - ✨ Học sinh Pháp Sư (Mage Trainee): (0/10)  
+    Học sinh có tài năng phép thuật, được đào tạo chuyên sâu về ma pháp.  
+  - 🛡️ Học sinh Chiến Binh (Warrior Trainee): (0/10)  
+    Được đào tạo về thể chất và kỹ năng chiến đấu để trở thành chiến binh mạnh mẽ.  
+  - 💎 Học sinh Sáng Tạo (Artisan Trainee): (0/5)  
+    Những học sinh có năng khiếu về chế tạo vũ khí hoặc các sản phẩm hỗ trợ ma pháp.  
+
+- 🟩 Khối C: Học sinh Phổ Thông (General)  
+  - 🌱 Học sinh Bình Thường: (0/∞)  
+    Chăm chỉ và kiên trì, luôn cố gắng vượt qua giới hạn bản thân.  
+  - 📖 Học sinh Học Giả (Scholar): (0/8)  
+    Đam mê nghiên cứu và học thuật, luôn tìm kiếm tri thức mới.  
+  - 🔬 Học sinh Nghiên Cứu Ma Pháp: (0/5)  
+    Chuyên sâu vào nghiên cứu các kỹ thuật ma pháp mới hoặc cải tiến phép thuật cũ.  
+
+- 💎 Khối Đặc Biệt: Học sinh Tinh Anh (Special)  
+  - ⚔️ Học sinh Hỗn Hợp (Hybrid Trainee): (0/5)  
+    Xuất sắc ở cả lĩnh vực phép thuật lẫn chiến đấu, được lựa chọn kỹ càng.  
+  - 🌌 Học sinh Ma Pháp Cổ Đại (Ancient Magic Trainee): (0/3)  
+    Sử dụng hoặc nghiên cứu các phép thuật cổ xưa hiếm có.  
+  - 🔮 Học sinh Tiên Tri (Seer): (0/2)  
+    Có khả năng tiên đoán hoặc nhìn thấy tương lai qua năng lượng ma pháp.  
+
+ 📚 Vai trò khác  
+- 🏅 Hiệu trưởng: (0/1)  
+  Người đứng đầu học viện, quản lý và quyết định các hoạt động quan trọng.  
+- 📖 Quản lý Thư Viện: (0/1)  
+  Người giữ gìn và bảo quản các tài liệu, sách phép thuật cổ.  
+- 👩‍💻 Trợ lý Giáo Viên: (0/3)  
+  Hỗ trợ giáo viên trong các buổi học hoặc các bài thực hành.  
+- 🗺️ Du học sinh (Exchange Student): (0/∞)  
+  Các học sinh đến từ quốc gia khác, mang theo văn hóa và kỹ năng độc đáo.  
+- 🦸 Học sinh Bí Ẩn (Mystery Student): (0/3)  
+  Những nhân vật với lý lịch bí ẩn và khả năng đặc biệt chưa được tiết lộ.  
+Tiếp theo là các khu vực trong thành phố Tempest. Dưới đây là một số khu vực bạn có thể thêm vào để làm phong phú thêm cho thế giới roleplay của bạn.
+
+
+ 🏙️ Các Khu Vực trong Thành Phố Tempest  
+
+ 🍻 Quán Bar "The Tempest Tavern"  
+- Giới thiệu:  
+  Quán bar "The Tempest Tavern" là nơi tụ tập của những cư dân trong thành phố Tempest sau một ngày dài làm việc. Đây là không gian sôi động, nơi mọi người có thể trò chuyện, thư giãn, thưởng thức đồ uống và nghe những câu chuyện thú vị.  
+  Dành cho những ai yêu thích sự náo nhiệt và muốn làm quen với các nhân vật đa dạng trong Tempest.  
+
+- Vai trò:  
+  - 🍸 Bartender (0/2):  
+    Người pha chế đồ uống, phục vụ khách hàng và tạo ra các thức uống đặc biệt theo yêu cầu.  
+  - 🧑‍🍳 Bếp Trưởng (0/1):  
+    Chịu trách nhiệm chế biến các món ăn, từ các món ăn truyền thống đến các món đặc sản của Tempest.  
+  - 🍽️ Nhân Viên Phục Vụ (0/3):  
+    Phục vụ khách hàng, nhận đơn hàng và giao thức ăn, đồ uống.  
+  - 🥂 Khách Hàng (0/∞):  
+    Người đến quán bar để thư giãn, trò chuyện, hoặc tham gia các hoạt động đặc biệt.  
+
+
+ 🏰 Lâu Đài Tempest  
+- Giới thiệu:  
+  Là nơi ở của Rimuru Tempest và các lãnh đạo chính trong thành phố, lâu đài Tempest không chỉ là nơi điều hành chính phủ mà còn là một biểu tượng quyền lực. Nơi đây luôn có sự kiện quan trọng, các cuộc họp, và những cuộc giao lưu ngoại giao với các quốc gia khác.  
+
+- Vai trò:  
+  - 👑 Rimuru Tempest (0/1):  
+    Người sáng lập và lãnh đạo thành phố Tempest, chủ trì các cuộc họp quan trọng và quyết định các chính sách của thành phố.  
+  - 💼 Quan Chức (0/5):  
+    Các quan chức, cố vấn, và trợ lý của Rimuru, tham gia vào việc quản lý thành phố và đưa ra các quyết định quan trọng.  
+  - 🛡️ Vệ Sĩ Hoàng Gia (0/4):  
+    Được giao nhiệm vụ bảo vệ Rimuru và các quan chức cấp cao của Tempest.  
+  - ⚖️ Ngoại Giao Viên (0/3):  
+    Người đại diện cho Tempest trong các cuộc đàm phán với các quốc gia và các lực lượng bên ngoài thành phố.  
+
+
+ 🏥 Trung Tâm Y Tế Tempest  
+- Giới thiệu:  
+  Trung tâm y tế Tempest là cơ sở chăm sóc sức khỏe hàng đầu trong thành phố, phục vụ cho mọi cư dân, từ các bệnh nhẹ đến các vết thương nghiêm trọng. Nơi đây cũng nghiên cứu và phát triển các phương pháp chữa trị mới.  
+
+- Vai trò:  
+  - 👩‍⚕️ Bác Sĩ (0/2):  
+    Các chuyên gia y tế chữa trị cho bệnh nhân, xử lý vết thương và thực hiện phẫu thuật khi cần thiết.  
+  - 💉 Điều Dưỡng Viên (0/3):  
+    Hỗ trợ bác sĩ trong việc chăm sóc bệnh nhân và điều trị các bệnh nhẹ.  
+  - 🌱 Nhà Nghiên Cứu (0/2):  
+    Chuyên nghiên cứu và phát triển các phương pháp điều trị mới, có thể là thuốc, phép thuật hoặc các công nghệ y học khác.  
+  - 🩺 Bệnh Nhân (0/∞):  
+    Những người cần được chữa trị hoặc kiểm tra sức khỏe.  
+
+
+ 🌳 Công Viên Tempest  
+- Giới thiệu:  
+  Công viên Tempest là một không gian xanh mát, nơi cư dân có thể thư giãn, tập thể dục, tổ chức sự kiện hoặc đơn giản chỉ là tận hưởng không khí trong lành.  
+
+- Vai trò:  
+  - 🌸 Quản Lý Công Viên (0/1):  
+    Người quản lý khu vực công viên, đảm bảo rằng mọi thứ được duy trì và sạch sẽ.  
+  - 🏃‍♀️ Người Tập Luyện (0/∞):  
+    Các cư dân tham gia vào các hoạt động thể thao, yoga hoặc chỉ đơn giản là đi dạo trong công viên.  
+  - 🌼 Người Dắt Chó (0/∞):  
+    Những người đến công viên để dắt thú cưng của họ chơi hoặc cho chúng vận động.  
+
+
+ 🛍️ Khu Thương Mại Tempest  
+- Giới thiệu:  
+  Khu thương mại Tempest là trung tâm mua sắm của thành phố, nơi cư dân và khách du lịch có thể tìm thấy mọi thứ, từ vật phẩm ma thuật cho đến các món đồ thủ công mỹ nghệ.  
+
+- Vai trò:  
+  - 🧙‍♂️ Người Bán Phép Thuật (0/3):  
+    Những người bán các vật phẩm ma thuật, từ thuốc, sách phép thuật đến các đồ vật hiếm có.  
+  - 🛠️ Thợ Rèn (0/2):  
+    Chế tạo và bán vũ khí, giáp, hoặc các vật phẩm hỗ trợ chiến đấu.  
+  - 👜 Người Bán Lẻ (0/5):  
+    Các chủ cửa hàng bán đồ dùng hàng ngày, thực phẩm, trang phục, và các món quà lưu niệm.  
+  - 👗 Thử Đồ (0/∞):  
+    Những người đến khu thương mại để mua sắm và thử các món đồ mới.  
+    Dưới đây là phần bổ sung cho Khách Sạn Tempest:
+
+
+ 🏨 Khách Sạn Tempest  
+- Giới thiệu:  
+  Khách sạn Tempest không chỉ nổi bật bởi vẻ ngoài sang trọng mà còn bởi các loại phòng cao cấp phục vụ mọi nhu cầu của khách hàng. Từ các phòng tiêu chuẩn thoải mái cho đến các phòng VIP xa hoa, khách sạn luôn đảm bảo mang lại sự hài lòng tối đa cho mọi du khách. Các cặp đôi cũng có thể tìm thấy không gian riêng tư và lãng mạn trong những phòng dành riêng cho họ.  
+
+- Vai trò:  
+  - 🛏️ Quản Lý Khách Sạn (0/1):  
+    Người đứng đầu khách sạn, điều hành mọi hoạt động và đảm bảo sự hài lòng của khách hàng.  
+  - 🧑‍💼 Lễ Tân (0/2):  
+    Tiếp đón khách, quản lý đặt phòng và cung cấp thông tin về các dịch vụ trong khách sạn.  
+  - 🍽️ Nhân Viên Phục Vụ (0/3):  
+    Phục vụ khách hàng trong các nhà hàng của khách sạn, đảm bảo họ có trải nghiệm ẩm thực tốt nhất.  
+  - 🧹 Nhân Viên Dọn Phòng (0/3):  
+    Dọn dẹp và giữ cho các phòng nghỉ luôn sạch sẽ, gọn gàng, sẵn sàng cho khách đến nghỉ.  
+  - 🛋️ Khách Nghỉ (0/∞):  
+    Khách du lịch hoặc người dân trong thành phố đến để nghỉ ngơi, tham gia các sự kiện hoặc gặp gỡ đối tác trong một không gian sang trọng.  
+  - 🎉 Người Tổ Chức Sự Kiện (0/2):  
+    Tổ chức các sự kiện tại khách sạn, từ hội nghị, hội thảo đến các bữa tiệc hoặc lễ kỷ niệm.  
+Dưới đây là phần bổ sung cho Khách Sạn Tempest, bao gồm các phòng VIP và phòng dành cho các cặp đôi:
+
+ Các Loại Phòng trong Khách Sạn Tempest
+
+ 🌟 Phòng VIP Hoàng Gia  
+- Giới thiệu:  
+  Phòng VIP Hoàng Gia là phòng sang trọng nhất của khách sạn, thiết kế lộng lẫy và đầy đủ tiện nghi, với tầm nhìn toàn cảnh thành phố Tempest. Phòng này được trang bị nội thất quý phái, vật dụng ma pháp tiên tiến và các dịch vụ riêng biệt. Đây là lựa chọn lý tưởng cho những người có địa vị cao, khách quý hoặc các quan khách đặc biệt.  
+- Vai trò:  
+  - 💼 Khách VIP (0/∞):  
+    Các nhân vật quan trọng đến từ các quốc gia khác hoặc các lãnh đạo trong Tempest đến để hội họp, ký kết hợp đồng hoặc nghỉ dưỡng.  
+  - 👑 Người Hầu VIP (0/2):  
+    Hầu cận của khách VIP, sẵn sàng phục vụ mọi nhu cầu của khách hàng trong phòng.  
+
+ 💖 Phòng Cặp Đôi Lãng Mạn  
+- Giới thiệu:  
+  Phòng này được thiết kế dành riêng cho các cặp đôi, với không gian ấm cúng, ánh sáng dịu nhẹ và không khí lãng mạn. Tất cả các tiện nghi trong phòng đều được chuẩn bị để tạo ra một không gian thân mật, lý tưởng cho những dịp kỷ niệm, tuần trăng mật hoặc các cuộc gặp gỡ riêng tư.  
+- Vai trò:  
+  - 💑 Cặp Đôi (0/∞):  
+    Các cặp đôi đến để tận hưởng thời gian riêng tư, nghỉ ngơi hoặc làm những điều thân mật.  
+  - 🛎️ Nhân Viên Phục Vụ Phòng Cặp Đôi (0/2):  
+    Phục vụ các nhu cầu riêng của cặp đôi, từ bữa tối đặc biệt cho đến những yêu cầu đặc biệt khác.  
+
+ 🏰 Phòng Cao Cấp  
+- Giới thiệu:  
+  Các phòng cao cấp trong khách sạn Tempest dành cho các du khách muốn trải nghiệm sự sang trọng và thoải mái với mức giá phải chăng hơn phòng VIP. Nội thất trang nhã, tiện nghi đầy đủ, nhưng không gian vẫn giữ được sự riêng tư và thư giãn tối đa.  
+- Vai trò:  
+  - 🛏️ Khách Cao Cấp (0/∞):  
+    Những khách đến để nghỉ ngơi trong một không gian thoải mái và an toàn.  
+  - 🧑‍💼 Nhân Viên Dọn Phòng (0/3):  
+    Chăm sóc các phòng cao cấp, bảo đảm phòng luôn trong trạng thái sạch sẽ, gọn gàng.  
+
+ 💭 Phòng Riêng Tư (For Private Affairs)  
+- Giới thiệu:  
+  Các phòng này được thiết kế đặc biệt cho những cuộc gặp gỡ mang tính riêng tư cao, cho phép khách hàng có không gian kín đáo và bảo mật tuyệt đối. Phòng này có thể được thuê cho các cuộc đàm phán, thảo luận bí mật hoặc các cuộc gặp gỡ thân mật với mức độ riêng tư cao.  
+- Vai trò:  
+  - 🔒 Khách Đặc Biệt (0/∞):  
+    Các nhân vật cần không gian riêng tư để gặp gỡ hoặc đàm phán mà không bị làm phiền.  
+  - 🕵️‍♂️ Nhân Viên An Ninh (0/2):  
+    Đảm bảo an ninh và sự riêng tư tuyệt đối cho các cuộc gặp gỡ quan trọng, ngăn chặn bất kỳ sự xâm phạm nào.  
+
+ Các Dịch Vụ Thêm trong Khách Sạn Tempest
+
+- 🍷 Dịch Vụ Ẩm Thực Cao Cấp:  
+  Khách hàng có thể yêu cầu bữa ăn đặc biệt trong phòng hoặc tại các nhà hàng trong khách sạn. Các bữa tiệc sang trọng, các món ăn theo yêu cầu hoặc thực đơn quốc tế được phục vụ ngay tại bàn.  
+- 🎶 Dịch Vụ Giải Trí:  
+  Các cặp đôi hoặc khách VIP có thể yêu cầu dịch vụ giải trí đặc biệt như âm nhạc sống, diễn viên biểu diễn, hoặc các sự kiện cá nhân tổ chức tại phòng hoặc trong không gian chung của khách sạn.  
+- 🌹 Dịch Vụ Trang Trí Phòng:  
+  Khách hàng có thể yêu cầu trang trí phòng với hoa, nến, hoặc các vật phẩm lãng mạn khác để tạo không khí đặc biệt cho các dịp kỷ niệm hoặc lễ tình nhân.  
+
+
+ ☕ Quán Café và Trà Tempest 『 Vĩnh Hằng Coffee&Tea 』 『 Vĩnh Hằng Coffee&Tea 』
+- Giới thiệu:  
+  Quán Café và Trà Tempest 『 Vĩnh Hằng Coffee&Tea 』 『 Vĩnh Hằng Coffee&Tea 』là một nơi yên bình, lý tưởng để thư giãn, thưởng thức những ly cà phê đặc biệt hoặc các loại trà thơm ngon, kết hợp với không gian nhẹ nhàng, thoải mái. Đây là điểm đến lý tưởng cho các cuộc trò chuyện thân mật, công việc hay đơn giản là tìm một nơi để tĩnh tâm. Quán thường xuyên có những buổi giao lưu, sự kiện nhẹ nhàng và cũng là nơi tụ tập của những ai yêu thích sự ấm áp của một tách trà nóng.  
+
+
+ Các Vai Trò trong Quán Café và Trà Tempest 『 Vĩnh Hằng Coffee&Tea 』
+
+ ☕ Quản Lý Quán Café (0/1)  
+- Giới thiệu:  
+  Quản lý quán café đảm nhận việc điều hành toàn bộ hoạt động của quán, từ quản lý nhân sự đến đảm bảo chất lượng đồ uống. Họ là người lên kế hoạch, tạo ra các menu đặc biệt và duy trì không khí dễ chịu cho khách hàng.  
+
+ 🍵 Barista / Người Pha Trà (0/2)  
+- Giới thiệu:  
+  Barista tại quán café và pha chế trà chuyên nghiệp, chịu trách nhiệm pha chế các loại đồ uống như cà phê, trà, và các loại đồ uống đặc biệt khác. Họ không chỉ là người pha chế mà còn là người tạo ra những trải nghiệm hương vị độc đáo cho khách hàng.  
+
+ 🍰 Nhân Viên Phục Vụ (0/3)  
+- Giới thiệu:  
+  Nhân viên phục vụ giúp khách hàng lựa chọn đồ uống, mang đồ uống đến bàn và đảm bảo sự thoải mái trong suốt thời gian khách ở quán. Họ có nhiệm vụ mang đến sự vui vẻ và tận tình cho khách hàng.  
+
+ 🥐 Khách Thưởng Thức (0/∞)  
+- Giới thiệu:  
+  Những người đến để thư giãn, thưởng thức cà phê, trà và bánh ngọt trong một không gian thoải mái. Họ có thể trò chuyện, làm việc hoặc đơn giản là nghỉ ngơi sau một ngày dài.  
+
+ 🎤 Người Tổ Chức Sự Kiện (0/2)  
+- Giới thiệu:  
+  Tổ chức các buổi gặp gỡ, trò chuyện, hoặc các sự kiện giao lưu, như các buổi thảo luận về ma thuật, chiến tranh hoặc các chủ đề thú vị khác. Họ có thể mời các diễn giả đặc biệt hoặc tạo ra các sự kiện độc đáo cho khách hàng.  
+
+ 🎶 Nhạc Sĩ / Ca Sĩ (0/2)  
+- Giới thiệu:  
+  Các nhạc sĩ hoặc ca sĩ biểu diễn tại quán café, mang đến những buổi trình diễn âm nhạc nhẹ nhàng, thích hợp để thư giãn và tạo không khí lãng mạn cho khách hàng. Họ có thể chơi nhạc cụ hoặc hát các bài hát yêu thích.  
+
+
+ Các Dịch Vụ Thêm trong Quán Café và Trà Tempest 『 Vĩnh Hằng Coffee&Tea 』
+
+- 🍽️ Dịch Vụ Thực Đơn Đặc Biệt:  
+  Các loại trà, cà phê đặc biệt và các món ăn kèm như bánh ngọt, bánh mì, salad sẽ luôn được phục vụ để làm hài lòng khách hàng. Quán cũng có thể thay đổi thực đơn theo mùa hoặc theo yêu cầu của khách hàng.
+
+- 🎉 Sự Kiện Giao Lưu:  
+  Quán thường tổ chức các buổi giao lưu về ma pháp, chiến lược, hoặc các chủ đề thú vị. Đây là nơi lý tưởng để các nhân vật trong thành phố gặp gỡ và trao đổi ý tưởng.
+
+- 📖 Không Gian Thư Giãn và Đọc Sách:  
+  Quán cũng có một góc thư viện nhỏ với các sách về ma thuật, lịch sử Tempest, và các văn hóa khác. Đây là không gian cho những ai yêu thích đọc sách hoặc nghiên cứu.
+
+
+『 Khu Vực Vĩnh Hằng Không Được Chọn 』
+
+ 🌌 Khu Vực Vĩnh Hằng  
+- Giới thiệu:  
+  Khu vực Vĩnh Hằng là một nơi huyền bí, tồn tại ngoài không gian và thời gian, là nơi ở của các vị thần và những thực thể quyền năng. Đây là không gian tuyệt đối, không ai có thể vào nếu không có sự cho phép đặc biệt. Khu vực này cũng đóng vai trò quan trọng trong việc duy trì trật tự và quy định cho các khu vực khác trong thế giới Tempest. Các vị thần ở đây được coi như những quản trị viên, bảo vệ sự ổn định và kiểm soát các sự kiện xảy ra trong các khu vực khác của thành phố.  
+  Khu vực này có thể là một không gian siêu thực, với những tòa thành lơ lửng, các cánh cổng thần thoại dẫn đến các vùng đất khác, và các đền thờ hùng vĩ dành cho những cuộc lễ quan trọng.  
+
+
+ Các Vai Trò trong Khu Vực Vĩnh Hằng
+
+ 👑 Huyền Thoại Bất Tử - Ahri
+- Giới thiệu:  
+  Huyền Thoại Bất Tử - Ahri là người đứng đầu Khu Vực Vĩnh Hằng, có khả năng điều khiển các quy luật vũ trụ và quyết định các sự kiện lớn trong thế giới Tempest. Người này thường duy trì sự cân bằng và giúp đỡ trong các cuộc xung đột, đồng thời là người bảo vệ sự công bằng và trật tự trong cả vũ trụ.  
+- Vai trò:  
+  - 👑 Thần Chủ Quản (0/1):  
+    Quyền lực tối cao trong Vĩnh Hằng, quản lý và điều phối mọi hoạt động của khu vực này.  
+
+ ⚡ Các Vị Thần (0/∞)  
+- Giới thiệu:  
+  Các vị thần là những thực thể quyền năng sống trong Vĩnh Hằng, sở hữu sức mạnh vượt trội và có ảnh hưởng sâu rộng đến các khu vực khác của Tempest. Họ có thể đóng vai trò quan trọng trong các sự kiện, thay đổi cục diện chiến tranh, hoặc giúp đỡ các nhân vật khi cần thiết.  
+- Vai trò:  
+  - ⚡ Thần Ma Thuật (0/∞):  
+    Những vị thần liên quan đến ma thuật, phép thuật và các hiện tượng huyền bí.  
+  - 🌪️ Thần Tự Nhiên (0/∞):  
+    Các vị thần điều khiển các yếu tố tự nhiên như gió, bão, đất đai hoặc lửa.  
+  - 💀 Thần Cái Chết (0/∞):  
+    Vị thần đại diện cho cái chết, sự tái sinh và các chu kỳ sinh mệnh.  
+
+ 🛡️ Quản Trị Viên (0/∞)  
+- Giới thiệu:  
+  Quản trị viên là những thực thể thần thánh được giao nhiệm vụ giám sát các khu vực khác trong thành phố Tempest, đảm bảo rằng mọi thứ diễn ra theo đúng quy trình và không có sự kiện bất ổn nào vượt ngoài tầm kiểm soát. Những quản trị viên này có thể là các nhân vật quyền lực hoặc những thần thánh từ các lĩnh vực khác nhau.  
+- Vai trò:  
+  - 🛡️ Quản Trị Viên Hành Chính (0/∞):  
+    Những người giám sát và điều phối các sự kiện quan trọng trong thành phố Tempest, duy trì trật tự và quyền lực.  
+  - ⚖️ Quản Trị Viên Công Lý (0/∞):  
+    Chịu trách nhiệm về các vấn đề công lý, phân xử các tranh chấp và bảo vệ quyền lợi của cư dân Tempest.  
+
+ 🌀 Người Thực Thi Quy Tắc (0/∞)  
+- Giới thiệu:  
+  Những thực thể thần thánh này có nhiệm vụ duy trì và thi hành các quy tắc trong thành phố Tempest và Vĩnh Hằng. Họ đảm bảo rằng các sự kiện diễn ra đúng theo quy định, không có bất kỳ hành động nào vi phạm luật lệ của thế giới. Những người này có quyền can thiệp vào bất kỳ sự kiện nào nếu cần thiết.  
+- Vai trò:  
+  - 🌀 Thực Thi Viên Quy Tắc (0/∞):  
+    Thực hiện các nhiệm vụ can thiệp, giám sát các sự kiện và đưa ra các quyết định quan trọng khi có sự vi phạm quy tắc.  
+
+
+ Các Dịch Vụ Thêm trong Khu Vực Vĩnh Hằng
+
+- 🌠 Lễ Hội Thần Thánh:  
+  Khu vực Vĩnh Hằng tổ chức các lễ hội, nghi thức tế lễ và các sự kiện linh thiêng giữa các vị thần, những dịp để thể hiện sức mạnh và quyền năng. Những nghi thức này có thể ảnh hưởng lớn đến các khu vực khác trong thành phố Tempest, thậm chí thay đổi hiện thực tạm thời.
+
+- ⚡ Cổng Ma Pháp:  
+  Vĩnh Hằng có các cổng thần thánh dẫn đến các thế giới khác, hoặc mở ra những lối đi thông qua các chiều không gian, cho phép các nhân vật trong thành phố Tempest đi lại giữa các khu vực này.
+
+- 🌌 Đền Thờ Thần Thánh:  
+  Các đền thờ nơi các vị thần giao lưu với nhau, thực hiện nghi thức thờ cúng, và nơi mọi cư dân, thậm chí những người có quyền lực cao, có thể đến để cầu nguyện, tìm kiếm lời khuyên hoặc xin ân huệ từ các vị thần.
